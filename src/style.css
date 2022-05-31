@@ -1,0 +1,176 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+background-image: url(https://wallpapercave.com/wp/wp7110875.jpg);
+background-repeat: no-repeat;
+font-family: 'ZCOOL KuaiLe';
+margin-left: 4rem;
+}
+
+.positionContainer {
+    height: 12px;
+    width: 60%;
+    padding: 1%;
+    overflow: scroll;
+    border: 5px solid #f7bc57;
+    border: #EEF139;
+    border-radius: 15px;
+    margin-left: 7%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    
+    
+  }
+
+
+section{
+font-family: 'ZCOOL KuaiLe', cursive;
+width: 100%;
+height: 300%;
+left: 1px;
+top: 0.3px;
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 96px;
+text-align: center;
+
+color: #EEF139;
+
+}
+
+
+.inputSearch {
+    margin-left: -0.1%;
+    padding-bottom: 1%;
+    display: flex;
+    gap: 10px;
+     }
+  
+  .searchStyle{
+     width: 20vw;
+    height: 3.5vh;
+    border-radius: 7px;
+    border-color: #EEF139;
+  }
+  
+  #search {
+    font-family: 'ZCOOL KuaiLe';
+    font-size: 1vw;
+    color: black;
+  }
+  
+  ::placeholder{
+    
+     padding-left: 5%;
+    
+  }
+  
+#box{
+    width: 900px;
+    height: 450px;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+#container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: yellowgreen;
+    align-content: center;
+    
+}
+
+.card{
+    border: yellow;
+    color: black;
+    background-color: aqua;
+    width: 20%;
+    height: 40%;
+    margin: 2rem;
+    padding: 0.8rem;
+    border-radius: 3rem;
+    opacity: 0.8;
+   
+   
+
+}
+
+.card_image {
+    border-radius: 15rem;
+    width: 60%;  
+    justify-content: center;
+   
+}
+
+.filterGroup {
+    font-family: 'ZCOOL KuaiLe';
+    
+}
+
+.sort {
+    font-family: 'ZCOOL KuaiLe';
+    margin-left: -0.1%;
+    padding-bottom: 1%;
+    width: 10vw;
+    height: 3.5vh;
+}
+
+.status {
+    font-family: 'ZCOOL KuaiLe';
+    margin-left: -0.1%;
+    padding-bottom: 1%;
+    width: 20vw;
+    height: 3.5vh;
+}
+
+.location {
+    font-family: 'ZCOOL KuaiLe';
+    margin-left: -0.1%;
+    padding-bottom: 1%;
+    width: 20vw;
+    height: 3.5vh;
+}
+
+ .specie {
+    font-family: 'ZCOOL KuaiLe';
+    margin-left: -0.1%;
+    padding-bottom: 1%;
+    width: 20vw;
+    height: 3.5vh;
+ }
+
+
+@media screen and (max-width: 768px) { 
+
+    #container {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: yellowgreen;
+
+        
+    }
+
+
+.filterGroup {
+    font-family: 'ZCOOL KuaiLe';
+    margin: 5rem;
+    
+}
+
+body {
+    margin-right: 10rem;
+}
+
+
+}
